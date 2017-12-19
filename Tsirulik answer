@@ -1,0 +1,12 @@
+1.parseInt('1011',2)
+
+2.(11).toString(2).padStart(8, '0')
+
+3.const even2 = testedValue => testedValue | 0b11111110;
+критерий: эта функция возвращает для чётных чисел свою собственную маску
+
+4.const even3 = (testedValue,n) => testedValue & 2**n
+
+5.Array.from({length:34}, (v,i)=>i).map( (x,i)=> (  {i, v: even3(x,3)}) )
+
+6.(0b0000101 << 1).toString(2).padStart(8, '0')
